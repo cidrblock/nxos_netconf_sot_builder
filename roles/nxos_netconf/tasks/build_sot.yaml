@@ -1,0 +1,27 @@
+- name: Set the inventory directory
+  ansible.builtin.set_fact:
+    inventory_host_directory: "{{ inventory_directory }}/host_vars/{{ inventory_hostname }}"
+  vars:
+    inventory_directory: ./inventory
+
+- name: Ensure the inventory directory exists
+  ansible.builtin.file:
+    path: "{{ inventory_host_directory }}"
+    state: directory
+
+- name: Get the config using the filter
+  ansible.netcommon.netconf_get:
+    source: running
+    filter: "{{ resources|nxos_native_filter_builder }}"
+    display: native
+  register: current_config
+  
+- name: Copy each resource to a file
+  copy:
+    content: "{{ content }}"
+    dest: "{{ inventory_host_directory }}/{{ item }}.yaml"
+  loop: "{{ resources }}"
+  loop_control:
+    label: "{{ item }}"
+  vars:
+    content: "{{ {item: current_config.output.data.System[item]} | to_nice_yaml }}"

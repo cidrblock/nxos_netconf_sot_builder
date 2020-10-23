@@ -1,0 +1,10 @@
+time-items:
+    adminSt: enabled
+    authSt: disabled
+    descr: null
+    logging: disabled
+    loggingLevel: critical
+    master: disabled
+    masterStratum: '8'
+    ownerKey: null
+    ownerTag: null

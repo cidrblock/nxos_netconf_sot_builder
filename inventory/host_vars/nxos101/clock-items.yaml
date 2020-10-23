@@ -1,0 +1,6 @@
+clock-items:
+    adminSt: enabled
+    authSt: disabled
+    format: 24hours
+    protocol: ntp
+    vdcId: '1'

@@ -1,0 +1,41 @@
+- name: Get the config using the filter
+  ansible.netcommon.netconf_get:
+    source: running
+    filter: "{{ resources|nxos_native_filter_builder }}"
+    display: native
+  register: pre_deploy
+
+- name: Build the intended config payload
+  set_fact:
+    intended: "{{ hostvars[inventory_hostname]|nxos_native_payload_builder(resources) }}"
+
+- name: Show the intended changes
+  ansible.utils.fact_diff:
+    before: "{{ pre_deploy.output.data.System|ansible.utils.to_paths }}"
+    after: "{{ intended.System|ansible.utils.to_paths }}"
+  register: changes
+
+- block:
+  - name: Deploy the configuration
+    ansible.netcommon.netconf_config:
+      content:
+        config: "{{ intended }}"
+
+  - name: Get the config using the filter
+    ansible.netcommon.netconf_get:
+      source: running
+      filter: "{{ resources|nxos_native_filter_builder }}"
+      display: native
+    register: post_deploy
+
+  - name: Show the deployed changes
+    ansible.utils.fact_diff:
+      before: "{{ pre_deploy.output.data.System|ansible.utils.to_paths }}"
+      after: "{{ post_deploy.output.data.System|ansible.utils.to_paths }}"
+  
+  when: changes.changed
+
+
+- debug:
+    msg: "No deployment necessary"
+  when: not changes.changed

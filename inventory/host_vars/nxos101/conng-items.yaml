@@ -1,0 +1,515 @@
+conng-items:
+    path-items:
+        PathEp-list:
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/11]
+            id: eth1/11
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/11']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/64]
+            id: eth1/64
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/64']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/12]
+            id: eth1/12
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/12']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/53]
+            id: eth1/53
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/53']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/59]
+            id: eth1/59
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/59']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/93]
+            id: eth1/93
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/93']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/46]
+            id: eth1/46
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/46']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/24]
+            id: eth1/24
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/24']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/120]
+            id: eth1/120
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/120']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/66]
+            id: eth1/66
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/66']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/122]
+            id: eth1/122
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/122']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/45]
+            id: eth1/45
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/45']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/123]
+            id: eth1/123
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/123']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/73]
+            id: eth1/73
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/73']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/128]
+            id: eth1/128
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/128']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/32]
+            id: eth1/32
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/32']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/126]
+            id: eth1/126
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/126']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/95]
+            id: eth1/95
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/95']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/81]
+            id: eth1/81
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/81']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/7]
+            id: eth1/7
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/7']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/23]
+            id: eth1/23
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/23']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/76]
+            id: eth1/76
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/76']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/71]
+            id: eth1/71
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/71']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/55]
+            id: eth1/55
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/55']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/9]
+            id: eth1/9
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/9']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/121]
+            id: eth1/121
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/121']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/88]
+            id: eth1/88
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/88']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/102]
+            id: eth1/102
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/102']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/107]
+            id: eth1/107
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/107']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/108]
+            id: eth1/108
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/108']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/17]
+            id: eth1/17
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/17']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/5]
+            id: eth1/5
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/5']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/48]
+            id: eth1/48
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/48']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/61]
+            id: eth1/61
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/61']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/72]
+            id: eth1/72
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/72']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/43]
+            id: eth1/43
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/43']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/105]
+            id: eth1/105
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/105']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/33]
+            id: eth1/33
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/33']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/54]
+            id: eth1/54
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/54']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/67]
+            id: eth1/67
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/67']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/28]
+            id: eth1/28
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/28']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/21]
+            id: eth1/21
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/21']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/62]
+            id: eth1/62
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/62']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/22]
+            id: eth1/22
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/22']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/42]
+            id: eth1/42
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/42']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/91]
+            id: eth1/91
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/91']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/34]
+            id: eth1/34
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/34']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/103]
+            id: eth1/103
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/103']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/35]
+            id: eth1/35
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/35']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/90]
+            id: eth1/90
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/90']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/58]
+            id: eth1/58
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/58']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/60]
+            id: eth1/60
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/60']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/96]
+            id: eth1/96
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/96']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/20]
+            id: eth1/20
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/20']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/127]
+            id: eth1/127
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/127']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/56]
+            id: eth1/56
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/56']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/79]
+            id: eth1/79
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/79']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/31]
+            id: eth1/31
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/31']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/82]
+            id: eth1/82
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/82']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/4]
+            id: eth1/4
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/4']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/25]
+            id: eth1/25
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/25']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/92]
+            id: eth1/92
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/92']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/112]
+            id: eth1/112
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/112']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/69]
+            id: eth1/69
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/69']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/86]
+            id: eth1/86
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/86']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/113]
+            id: eth1/113
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/113']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/51]
+            id: eth1/51
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/51']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/63]
+            id: eth1/63
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/63']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/115]
+            id: eth1/115
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/115']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/18]
+            id: eth1/18
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/18']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/65]
+            id: eth1/65
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/65']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/109]
+            id: eth1/109
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/109']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/70]
+            id: eth1/70
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/70']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/114]
+            id: eth1/114
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/114']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/125]
+            id: eth1/125
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/125']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/117]
+            id: eth1/117
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/117']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/101]
+            id: eth1/101
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/101']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/29]
+            id: eth1/29
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/29']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/68]
+            id: eth1/68
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/68']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/83]
+            id: eth1/83
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/83']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/44]
+            id: eth1/44
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/44']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/110]
+            id: eth1/110
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/110']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/36]
+            id: eth1/36
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/36']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/14]
+            id: eth1/14
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/14']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/47]
+            id: eth1/47
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/47']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/85]
+            id: eth1/85
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/85']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/52]
+            id: eth1/52
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/52']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/84]
+            id: eth1/84
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/84']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/38]
+            id: eth1/38
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/38']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/100]
+            id: eth1/100
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/100']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/57]
+            id: eth1/57
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/57']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/13]
+            id: eth1/13
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/13']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/111]
+            id: eth1/111
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/111']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/26]
+            id: eth1/26
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/26']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/3]
+            id: eth1/3
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/3']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/19]
+            id: eth1/19
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/19']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/119]
+            id: eth1/119
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/119']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/89]
+            id: eth1/89
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/89']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/77]
+            id: eth1/77
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/77']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/104]
+            id: eth1/104
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/104']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/116]
+            id: eth1/116
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/116']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/37]
+            id: eth1/37
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/37']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/16]
+            id: eth1/16
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/16']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/97]
+            id: eth1/97
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/97']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/39]
+            id: eth1/39
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/39']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/94]
+            id: eth1/94
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/94']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/78]
+            id: eth1/78
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/78']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/98]
+            id: eth1/98
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/98']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/40]
+            id: eth1/40
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/40']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/124]
+            id: eth1/124
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/124']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/41]
+            id: eth1/41
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/41']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/49]
+            id: eth1/49
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/49']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/27]
+            id: eth1/27
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/27']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/80]
+            id: eth1/80
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/80']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/15]
+            id: eth1/15
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/15']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/106]
+            id: eth1/106
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/106']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/6]
+            id: eth1/6
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/6']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/30]
+            id: eth1/30
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/30']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/50]
+            id: eth1/50
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/50']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/118]
+            id: eth1/118
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/118']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/10]
+            id: eth1/10
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/10']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/74]
+            id: eth1/74
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/74']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/1]
+            id: eth1/1
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/1']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/87]
+            id: eth1/87
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/87']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/2]
+            id: eth1/2
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/2']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/8]
+            id: eth1/8
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/8']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/99]
+            id: eth1/99
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/99']
+        -   fabricPathDn: topology/pod-1/paths-0/pathep-[eth1/75]
+            id: eth1/75
+            rspathToIf-items:
+                tDn: /System/intf-items/phys-items/PhysIf-list[id='eth1/75']

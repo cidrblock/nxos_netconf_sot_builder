@@ -1,0 +1,6 @@
+boot-items:
+    image-items:
+        imageverification: enable
+        sup1: bootflash:/nxos.9.2.2.bin
+        sup2: bootflash:/nxos.9.2.2.bin
+    poap: disable

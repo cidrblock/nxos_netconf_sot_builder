@@ -1,0 +1,4 @@
+macsec-items:
+    adminSt: enabled
+    inst-items:
+        adminSt: enabled

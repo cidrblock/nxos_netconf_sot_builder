@@ -1,0 +1,520 @@
+lacp-items:
+    adminSt: enabled
+    inst-items:
+        adminPrio: '32768'
+        adminRole: primary
+        adminSt: enabled
+        if-items:
+            If-list:
+            -   adminSt: enabled
+                id: eth1/91
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/28
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/106
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/4
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/25
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/6
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/120
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/35
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/30
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/5
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/119
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/81
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/31
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/84
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/56
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/61
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/66
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/118
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/128
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/116
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/22
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/7
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/51
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/9
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/92
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/90
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/73
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/19
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/93
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/64
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/115
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/78
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/114
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/121
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/83
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/75
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/112
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/3
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/41
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/122
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/33
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/50
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/124
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/59
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/21
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/109
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/29
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/23
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/55
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/107
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/89
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/94
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/44
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/77
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/117
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/47
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/42
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/67
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/102
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/26
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/76
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/18
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/62
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/71
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/95
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/85
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/60
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/8
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/97
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/39
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/38
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/79
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/17
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/96
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/105
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/70
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/110
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/45
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/127
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/87
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/125
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/88
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/15
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/101
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/111
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/34
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/113
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/68
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/57
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/54
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/13
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/2
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/53
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/98
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/48
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/65
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/11
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/72
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/12
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/126
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/103
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/36
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/80
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/52
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/82
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/10
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/20
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/1
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/27
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/74
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/16
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/14
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/24
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/99
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/108
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/43
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/104
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/32
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/69
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/86
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/37
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/40
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/46
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/63
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/49
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/58
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/100
+                prio: '32768'
+                txRate: normal
+            -   adminSt: enabled
+                id: eth1/123
+                prio: '32768'
+                txRate: normal

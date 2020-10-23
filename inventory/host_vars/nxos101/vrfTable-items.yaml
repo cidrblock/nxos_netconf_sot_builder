@@ -1,0 +1,6 @@
+vrfTable-items:
+    vrf-items:
+        VrfEntry-list:
+            ctrlrId: '0'
+            genExtraRt: 'false'
+            name: default

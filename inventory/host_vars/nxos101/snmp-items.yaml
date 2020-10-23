@@ -1,0 +1,213 @@
+snmp-items:
+    adminSt: enabled
+    inst-items:
+        adminSt: disabled
+        lclUser-items:
+            LocalUser-list:
+            -   authtype: md5
+                group-items:
+                    UserGroup-list:
+                        groupName: network-admin
+                isenforcepriv: 'false'
+                islocalizedkey: 'false'
+                privtype: des
+                userName: bthornto
+                usrengineIdlen: '0'
+            -   authtype: md5
+                group-items:
+                    UserGroup-list:
+                        groupName: network-admin
+                isenforcepriv: 'false'
+                islocalizedkey: 'false'
+                privtype: des
+                userName: admin
+                usrengineIdlen: '0'
+        name: default
+        rmon-items:
+            event-items:
+                Event-list:
+                -   description: CRITICAL(2)
+                    log: 'no'
+                    num: '2'
+                    owner: PMON@CRITICAL
+                -   description: INFORMATION(5)
+                    log: 'no'
+                    num: '5'
+                    owner: PMON@INFO
+                -   description: WARNING(4)
+                    log: 'no'
+                    num: '4'
+                    owner: PMON@WARNING
+                -   description: FATAL(1)
+                    log: 'no'
+                    num: '1'
+                    owner: PMON@FATAL
+                -   description: ERROR(3)
+                    log: 'no'
+                    num: '3'
+                    owner: PMON@ERROR
+        traps-items:
+            aaa-items:
+                serverstatechange-items:
+                    trapstatus: disable
+            bfd-items:
+                sessiondown-items:
+                    trapstatus: disable
+                sessionup-items:
+                    trapstatus: disable
+            bridge-items:
+                newroot-items:
+                    trapstatus: disable
+                topologychange-items:
+                    trapstatus: disable
+            callhome-items:
+                eventnotify-items:
+                    trapstatus: disable
+                smtpsendfail-items:
+                    trapstatus: disable
+            cfs-items:
+                mergefailure-items:
+                    trapstatus: disable
+                statechangenotif-items:
+                    trapstatus: disable
+            config-items:
+                ccmCLIRunningConfigChanged-items:
+                    trapstatus: disable
+            entity-items:
+                cefcMIBEnableStatusNotification-items:
+                    trapstatus: enable
+                entityfanstatuschange-items:
+                    trapstatus: enable
+                entitymibchange-items:
+                    trapstatus: enable
+                entitymoduleinserted-items:
+                    trapstatus: enable
+                entitymoduleremoved-items:
+                    trapstatus: enable
+                entitymodulestatuschange-items:
+                    trapstatus: enable
+                entitypoweroutchange-items:
+                    trapstatus: enable
+                entitypowerstatuschange-items:
+                    trapstatus: enable
+                entitysensor-items:
+                    trapstatus: enable
+                entityunrecognisedmodule-items:
+                    trapstatus: enable
+            featurecontrol-items:
+                FeatureOpStatusChange-items:
+                    trapstatus: disable
+                ciscoFeatOpStatusChange-items:
+                    trapstatus: disable
+            generic-items:
+                coldStart-items:
+                    trapstatus: enable
+                warmStart-items:
+                    trapstatus: enable
+            hsrp-items:
+                statechange-items:
+                    trapstatus: disable
+            ip-items:
+                sla-items:
+                    trapstatus: disable
+            license-items:
+                notifylicenseexpiry-items:
+                    trapstatus: enable
+                notifylicenseexpirywarning-items:
+                    trapstatus: enable
+                notifylicensefilemissing-items:
+                    trapstatus: enable
+                notifynolicenseforfeature-items:
+                    trapstatus: enable
+            link-items:
+                cerrdisableinterfaceeventrev1-items:
+                    trapstatus: enable
+                cieLinkDown-items:
+                    trapstatus: enable
+                cieLinkUp-items:
+                    trapstatus: enable
+                ciscoxcvrmonstatuschg-items:
+                    trapstatus: disable
+                cmnmacmovenotification-items:
+                    trapstatus: enable
+                delayedlinkstatechange-items:
+                    trapstatus: enable
+                extendedlinkDown-items:
+                    trapstatus: enable
+                extendedlinkUp-items:
+                    trapstatus: enable
+                linkDown-items:
+                    trapstatus: enable
+                linkUp-items:
+                    trapstatus: enable
+            lldp-items:
+                lldpRemTablesChange-items:
+                    trapstatus: disable
+            mmode-items:
+                cseMaintModeChangeNotify-items:
+                    trapstatus: disable
+                cseNormalModeChangeNotify-items:
+                    trapstatus: disable
+            msdp-items:
+                msdpBackwardTransition-items:
+                    trapstatus: disable
+            pim-items:
+                pimNeighborLoss-items:
+                    trapstatus: disable
+            poe-items:
+                controlenable-items:
+                    trapstatus: disable
+                policenotify-items:
+                    trapstatus: disable
+            portsecurity-items:
+                accesssecuremacviolation-items:
+                    trapstatus: disable
+                trunksecuremacviolation-items:
+                    trapstatus: disable
+            rf-items:
+                redundancyframework-items:
+                    trapstatus: enable
+            rmon-items:
+                fallingAlarm-items:
+                    trapstatus: enable
+                hcFallingAlarm-items:
+                    trapstatus: enable
+                hcRisingAlarm-items:
+                    trapstatus: enable
+                risingAlarm-items:
+                    trapstatus: enable
+            snmp-items:
+                authentication-items:
+                    trapstatus: disable
+            stormcontrol-items:
+                cpscEventRev1-items:
+                    trapstatus: enable
+                traprate: '0'
+            stpx-items:
+                inconsistency-items:
+                    trapstatus: disable
+                loopinconsistency-items:
+                    trapstatus: disable
+                rootinconsistency-items:
+                    trapstatus: disable
+            sysmgr-items:
+                cseFailSwCoreNotifyExtended-items:
+                    trapstatus: disable
+            system-items:
+                Clockchangenotification-items:
+                    trapstatus: disable
+            upgrade-items:
+                UpgradeJobStatusNotify-items:
+                    trapstatus: enable
+            vsan-items:
+                vsanPortMembershipChange-items:
+                    trapstatus: disable
+                vsanStatusChange-items:
+                    trapstatus: disable
+            vtp-items:
+                notifs-items:
+                    trapstatus: disable
+                vlancreate-items:
+                    trapstatus: disable
+                vlandelete-items:
+                    trapstatus: disable

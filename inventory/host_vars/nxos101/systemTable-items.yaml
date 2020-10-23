@@ -1,0 +1,5 @@
+systemTable-items:
+    isControllerConfigured: 'false'
+    purgeDBRequest: never
+    stTime: never
+    switchType: N9K-9000v

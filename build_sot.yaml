@@ -1,0 +1,55 @@
+- hosts: nxos101
+  gather_facts: False
+  tasks:
+  - include_role:
+      name: nxos_netconf
+      tasks_from: build_sot.yaml
+    vars:
+      inventory_directory: ./inventory
+      resources:
+      - adjacency-items
+      - arp-items
+      - bd-items
+      - boot-items
+      - cdp-items
+      - cfs-items
+      - clock-items
+      - conng-items
+      - dhcp-items
+      - dns-items
+      - ethpm-items
+      - fm-items
+      - icmpv4-items
+      - icmpv6-items
+      - igmpsnoop-items
+      - inst-items
+      - install-items
+      - intf-items
+      - ipqos-items
+      - ipv4-items
+      - ipv6-items
+      - l2fm-items
+      - lacp-items
+      - lldp-items
+      - lsnode-items
+      - mac-items
+      - macsec-items
+      - mgmt-items
+      - name
+      - nd-items
+      - npv-items
+      - nxapi-items
+      - ops-items
+      - ospf-items
+      - pc-items
+      - pltfm-items
+      - poe-items
+      - snmp-items
+      - stp-items
+      - systemTable-items
+      - time-items
+      - udld-items
+      - userext-items
+      - vrfTable-items
+      - vrrp-items
+      

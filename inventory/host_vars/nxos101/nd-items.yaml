@@ -1,0 +1,12 @@
+nd-items:
+    adminSt: enabled
+    inst-items:
+        acceptSolicitNghbrEntry: none
+        adminSt: enabled
+        agingInterval: '1380'
+        cacheLimit: '174080'
+        cacheSyslogRate: '1'
+        ipv6AdjRouteDistance: '250'
+        offListTimeout: '180'
+        probeIntervalForSolicitNghbr: '5'
+        solicitNghbrAdvertisement: disabled

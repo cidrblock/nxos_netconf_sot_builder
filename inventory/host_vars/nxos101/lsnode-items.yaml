@@ -1,0 +1,4 @@
+lsnode-items:
+    LooseNode-list:
+    -   id: 192.168.101.15
+    -   id: 192.168.101.14

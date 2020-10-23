@@ -1,0 +1,54 @@
+ethpm-items:
+    inst-items:
+        adminLinkDownSyslogLevel: '5'
+        adminLinkUpSyslogLevel: '5'
+        adminSt: enabled
+        allowUnsupportedSfp: 'true'
+        errdisrecover-items:
+            Event-items:
+                Event-list:
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-stp-inconsist-vpc-peerlink
+                    recover: 'false'
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-link-flap
+                    recover: 'false'
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-bpduguard
+                    recover: 'false'
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-udld
+                    recover: 'false'
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-storm-ctrl
+                    recover: 'false'
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-set-port-state-failed
+                    recover: 'false'
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-loopback
+                    recover: 'false'
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-psec-violation
+                    recover: 'false'
+                -   adminSt: enabled
+                    detect: 'true'
+                    event: event-sec-violation
+                    recover: 'false'
+            adminSt: enabled
+            errDisRecovIntvl: '300'
+        ifSyslogInfo: default
+        logEvent: linkStatusDefault,linkStatusEnable,trunkStatusEnable
+        logLevel: '5'
+        systemDefaultAdminSt: up
+        systemDefaultLayer: Layer2
+        systemJumboMtu: '9216'
+        vlanTagNative: 'false'
