@@ -1,7 +1,0 @@
-cfs-items:
-    adminSt: enabled
-    inst-items:
-        adminSt: enabled
-        distribute: enabled
-        ethDist: disabled
-        ipDistMode: none

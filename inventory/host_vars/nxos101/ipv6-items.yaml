@@ -1,8 +1,0 @@
-ipv6-items:
-    adminSt: enabled
-    inst-items:
-        accessListMatchLocal: disabled
-        adminSt: enabled
-        queuePackets: disabled
-        staticNeighborOutsideSubnet: disabled
-        switchPackets: disabled

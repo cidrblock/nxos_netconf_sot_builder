@@ -1,5 +1,0 @@
-nxapi-items:
-    httpPort: '80'
-    httpsPort: '443'
-    sslCiphersWeak: 'false'
-    sslProtocols: TLSv1.1 TLSv1.2

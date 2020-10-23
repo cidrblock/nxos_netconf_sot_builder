@@ -1,8 +1,0 @@
-dns-items:
-    adminSt: enabled
-    prof-items:
-        Prof-list:
-            descr: null
-            name: default
-            ownerKey: null
-            ownerTag: null
